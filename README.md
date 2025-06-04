@@ -16,11 +16,6 @@ Tampermonkey (Chrome/Firefox)
 
 Violentmonkey (Chrome/Firefox)
 
-Click here to install the script
-(Replace with actual .user.js file URL)
-
-Browse Amazon.de and search for products.
-
 ## ⚙️ How It Works
 The script looks for elements with data-cy="price-recipe" and checks for rows that contain the phrase / Mon. für, indicating a monthly installment plan. If found, the entire price block is visually highlighted.
 

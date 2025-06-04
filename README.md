@@ -27,5 +27,5 @@ The script looks for elements with data-cy="price-recipe" and checks for rows th
 ## 🛠️ Customization
 You can adjust the highlight style by editing these lines:
 
-<pre> ```item.style.border = "2px solid orange";
-item.style.backgroundColor = "#fff8e1";``` </pre>
+<pre>item.style.border = "2px solid orange";
+item.style.backgroundColor = "#fff8e1";</pre>

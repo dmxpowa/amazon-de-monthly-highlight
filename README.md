@@ -9,15 +9,23 @@ This userscript highlights product listings on [Amazon.de](https://www.amazon.de
   - 🟧 Orange border
   - 🟡 Light yellow background
 
-## 📜 Script Metadata
+## 🚀 Installation
+Install a userscript manager:
 
-```javascript
-// ==UserScript==
-// @name         Amazon.de Monthly Payment Highlighter
-// @namespace    https://amazon.de/
-// @version      1.0
-// @description  Highlight Amazon.de items with monthly payment options
-// @author       You
-// @match        https://www.amazon.de/*
-// @grant        none
-// ==/UserScript==
+Tampermonkey (Chrome/Firefox)
+
+Violentmonkey (Chrome/Firefox)
+
+Click here to install the script
+(Replace with actual .user.js file URL)
+
+Browse Amazon.de and search for products.
+
+## ⚙️ How It Works
+The script looks for elements with data-cy="price-recipe" and checks for rows that contain the phrase / Mon. für, indicating a monthly installment plan. If found, the entire price block is visually highlighted.
+
+## 🛠️ Customization
+You can adjust the highlight style by editing these lines:
+
+<pre> ```item.style.border = "2px solid orange";
+item.style.backgroundColor = "#fff8e1";``` </pre>

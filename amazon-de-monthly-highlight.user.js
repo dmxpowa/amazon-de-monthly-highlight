@@ -6,7 +6,7 @@
 // @author       dmxpowa
 // @match        https://www.amazon.de/*
 // @grant        none
-// @license MIT
+// @license      MIT
 // ==/UserScript==
 
 (function () {

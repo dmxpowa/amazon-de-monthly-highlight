@@ -16,7 +16,7 @@
         const items = document.querySelectorAll('[data-cy="price-recipe"]');
         items.forEach(item => {
             const monthlyRow = Array.from(item.querySelectorAll('.a-row')).find(row =>
-                row.textContent.includes("/ Mon. für")
+                row.textContent.includes("/ Mon. für") || row.textContent.toLowerCase().includes("/month for")
             );
             if (monthlyRow) {
                 // Highlight the whole item or just the row, depending on preference

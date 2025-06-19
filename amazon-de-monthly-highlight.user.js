@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon.de Monthly Payment Highlighter
 // @namespace    https://amazon.de/
-// @version      1.0
+// @version      1.1
 // @description  Highlight Amazon.de items with monthly payment options
 // @author       dmxpowa
 // @match        https://www.amazon.de/*
